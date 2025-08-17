@@ -30,7 +30,7 @@ struct RawTxBC: Codable {
     let inputs: [RawInBC]
     let outputs: [RawOutBC]
 }
-struct RawInBC: Codable { let addresses: [String]?, output_value: Int64? }
+\≈≈≈struct RawInBC: Codable { let addresses: [String]?, output_value: Int64? }
 struct RawOutBC: Codable { let addresses: [String]?, value: Int64? }
 
 // Preise
